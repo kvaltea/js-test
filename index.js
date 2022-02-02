@@ -1,15 +1,9 @@
-function run() {
-  var a = 0;
+const n = 150;
+let sum = 0;
 
-  if (a == 1) {
-    return c;
-  }
+do {
+  sum += n;
+  n = -1;
+} while (n > 0);
 
-  for (let i = 1; i < 10; i++) {
-    console.log(i);
-  }
-
-  return (d = a);
-}
-
-run();
+console.log('Result:' + sum);
